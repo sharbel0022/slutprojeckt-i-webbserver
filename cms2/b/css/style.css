@@ -1,0 +1,160 @@
+body, html {
+margin: 0;
+}
+body{ 
+color:white;
+background-color: background: hsla(230, 49%, 42%, 1);
+
+background: radial-gradient(circle, hsla(230, 49%, 42%, 1) 0%, hsla(359, 73%, 15%, 1) 100%, hsla(250, 5%, 44%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(230, 49%, 42%, 1) 0%, hsla(359, 73%, 15%, 1) 100%, hsla(250, 5%, 44%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(230, 49%, 42%, 1) 0%, hsla(359, 73%, 15%, 1) 100%, hsla(250, 5%, 44%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3749A0", endColorstr="#400A0B", GradientType=1 ); 
+box-sizing: border-box; color:black;
+}
+div{
+/*border-style: dotted;*/
+}
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+
+/* Clear floats after the columns */
+.row:after {content: ""; display: table;  clear: both;}
+.column0 {float: left; width: 100%;}
+.column  {float: left; width: 50%; }
+.column3 {float: left; width: 33.33%; min-height: 300px;}
+.column10{float: left; width: 10%; min-height: 300px;}
+.column20{float: left; width: 20%; min-height: 300px;}
+.column30{float: left; width: 30%; min-height: 300px;}
+.column40{float: left; width: 40%; min-height: 300px;}
+.column50{float: left; width: 50%; min-height: 300px;}
+.column60{float: left; width: 60%; min-height: 300px;}
+.column70{float: left; width: 70%; min-height: 300px;}
+.column80{float: left; width: 80%; min-height: 300px;}
+.column90{float: left; width: 90%; min-height: 300px;}
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column0 {width: 100%;}
+.column  {width: 100%; }
+.column3 {width: 100%; min-height: 300px;}
+.column10{width: 100%; min-height: 300px;}
+.column20{width: 100%; min-height: 300px;}
+.column30{width: 100%; min-height: 300px;}
+.column40{width: 100%; min-height: 300px;}
+.column50{width: 100%; min-height: 300px;}
+.column60{width: 100%; min-height: 300px;}
+.column70{width: 100%; min-height: 300px;}
+.column80{width: 100%; min-height: 300px;}
+.column90{width: 100%; min-height: 300px;}
+}
+textarea{
+	width:100%;
+	height:300px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  font-size:18px;
+
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:24px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.black_back{
+background-color:black
+}
+.white_text{
+color:white;
+}
+.links a:hover {
+  background-color: #111;
+}
+.links a {
+  color: lime;
+}
+.fixed_height{
+height:300px;
+overflow-y: auto;
+}
