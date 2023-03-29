@@ -1,0 +1,23 @@
+<style>.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: move-square;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes move-square {
+    0% {
+      left: 0;
+    }
+    80% {
+      left: 50%;
+      transform: rotate(80deg);
+    }
+    
+  }
+  </style>
+
+<div class="square"></div>
