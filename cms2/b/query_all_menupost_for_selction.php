@@ -1,4 +1,4 @@
-<form action="index.php" method="POST">
+<form action="admin.php" method="POST">
 <div><input type="text" name="description">
 <input type="submit" name="add_new_menuitem"></div>
 <?php

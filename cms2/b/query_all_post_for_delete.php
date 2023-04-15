@@ -1,4 +1,4 @@
-<form action="index.php" method="POST">
+<form action="admin.php" method="POST">
 
 <?php
 $to_be_deleted = array();
